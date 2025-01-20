@@ -136,6 +136,7 @@
     gap: 30px;
     justify-content: center;
     padding: 50px 20px;
+    background-color: white;
    }
    .feature-img{
     width: 50%;
@@ -146,4 +147,18 @@
    }
    .feature-content > h1{
     margin-bottom: 3cqh;
+   }
+
+   .container{
+    padding: 50px 30px;
+    background-color: black;
+    color: white;
+   }
+   .footer{
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .footer i{
+    margin: 10px;
    }
