@@ -78,6 +78,9 @@
    
 
    }
+   .logo-section{
+    padding: 100px 0;
+   }
 
    .logo-images{
     display: flex;
@@ -91,12 +94,56 @@
    }
    .card img{
     width: 100%;
+    height: 200px;
    }
    .card{
     width:80%;
     background-color: white;
     padding: 10px 20px;
-    height: 350px;
+    height: 370px;
     margin: 15px;
-    border: 1px solid black;
+    border: 1px solid rgb(231, 227, 227);
+
+   }
+   .card-title{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+
+   }
+   .card-des{
+    margin-top: 15px;
+   }
+   .card-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   }
+   .card-heading{
+    text-align: center;
+    padding: 50px 10px;
+   }
+
+   .btn-div button{
+   float: right;
+    background-color: transparent;
+    margin-top: -20px;
+    margin-left: -200px;
+    color: red;
+
+   }
+
+   .feature-section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 20px;
+   }
+   .feature-img{
+    width: 50%;
+   }
+   .feature-conten{
+    width: 60%;
+   
+   }
+   .feature-content > h1{
+    margin-bottom: 3cqh;
    }
